@@ -136,7 +136,7 @@ export default {
     },
 
     goToAddContact() {
-      alert("Chức năng thêm mới sẽ được cài đặt ở bước sau.");
+      this.$router.push({ name: "contact.add" });
     },
   },
 
